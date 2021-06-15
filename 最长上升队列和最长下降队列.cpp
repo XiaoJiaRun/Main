@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int mo1 = 1e3;
+const int mo1 = 1e8+10;
 int a[mo1];
 int sum, sum1;
 int main() {
@@ -23,7 +23,7 @@ int main() {
 		sum = max(sum, dp1[i]);
 		sum1 = max(sum1, dp2[i]);
 	}
-	cout << sum << endl << sum1 << endl;
+	cout <<sum<<endl<<sum1<< endl;
 	return 0;
 }  
 
